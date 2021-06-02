@@ -46,7 +46,7 @@ const getIcon = (variant: AlertProps["variant"] = variants.INFO) => {
 
 const IconLabel = styled.div<ThemedIconLabel>`
   background-color: ${getThemeColor};
-  border-radius: 16px 0 0 16px;
+  border-radius: 8px 0 0 8px;
   color: ${({ theme }) => theme.alert.background};
   padding: 12px;
 `;
@@ -61,7 +61,7 @@ const Details = styled.div<{ hasHandler: boolean }>`
 `;
 
 const CloseHandler = styled.div`
-  border-radius: 0 16px 16px 0;
+  border-radius: 0 8px 8px 0;
   right: 8px;
   position: absolute;
   top: 8px;
